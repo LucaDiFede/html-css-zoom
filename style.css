@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    height: 40px;
+    text-align: right;
+}
+
+header > button {
+    background-color: grey;
+    padding: 3px;
+    color: white;
+    border-radius: 2px;
+}
+
+main {
+    height: calc(100vh - 140px);
+}
+
+.rettangolo {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.rettangolo > div {
+    margin: 5px;
+    position: relative;
+}
+
+.rettangolo > div img {
+    display: block;
+    height: 135px;
+}
+
+.rettangolo > div span {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgb(155, 151, 151);
+    color: white;
+    font-size: 75%;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(54, 50, 50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > *{
+    height: 100%;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+#square {
+    color: green;
+}
+
+#red {
+    color: red;
+    background-color: rgb(155, 151, 151);
+}
